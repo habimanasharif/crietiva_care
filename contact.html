@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Creativa Care</title>
+  <meta name="description" content="Contact Creativa Care in Kingston, ON. Call 613-583-7320 or send a message about non-medical home care for a loved one.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="index.html">Creativa <span>Care</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-panel" id="site-nav">
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="btn nav-call" href="tel:+16135837320">613-583-7320</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="kicker">Contact</p>
+        <h1>We are here to help your family take the next step.</h1>
+        <p class="lede">Call us, visit our Kingston office, or send a message. We will follow up to learn about your loved one’s needs and how Creativa Care can support you at home.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap grid contact-grid">
+        <div>
+          <h2>Reach us directly</h2>
+          <ul class="contact-list">
+            <li>
+              <strong>Telephone</strong>
+              <a href="tel:+16135837320">613-583-7320</a>
+            </li>
+            <li>
+              <strong>Office</strong>
+              162 Briceland<br>
+              Kingston, ON
+            </li>
+            <li>
+              <strong>Service area</strong>
+              City of Kingston and surrounding areas
+            </li>
+          </ul>
+          <p class="note">The fastest way to reach us is by phone. Please do not include health-card numbers or detailed medical information in this form.</p>
+        </div>
+
+        <div>
+          <h2>Send a message</h2>
+          <form id="contact-form" action="mailto:hello@creativacare.ca" method="get">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+
+            <label for="for-whom">Who is care for?</label>
+            <input id="for-whom" name="for-whom" type="text" placeholder="e.g. parent, spouse, myself">
+
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button class="btn" type="submit">Open email to send</button>
+            <p class="form-status" id="form-status" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>
+        <strong>Creativa Care</strong><br>
+        Non-medical home care<br>
+        162 Briceland, Kingston, ON
+      </div>
+      <div>
+        <a href="tel:+16135837320">613-583-7320</a><br>
+        Serving Kingston and surrounding areas
+      </div>
+    </div>
+    <div class="wrap fine-print">Creativa Care provides non-medical personal support, companion care, and light household management. We do not provide nursing or clinical treatment.</div>
+  </footer>
+  <a class="mobile-call" href="tel:+16135837320">Call now · 613-583-7320</a>
+  <button class="to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
